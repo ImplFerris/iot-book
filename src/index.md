@@ -23,7 +23,7 @@ For the smoothest experience, I recommend using the same board or a board with a
 
 When it comes to IoT, the ESP32 family is one of the most popular choices for hobbyists and makers. There are already many books covering variants such as the original ESP32 and ESP32-C3.
 
-For this book, I wanted to work with a newer ESP32 chip. I was initially considering the ESP32-C6 but chose the ESP32-C5. One of the reasons I chose the ESP32-C5 was its support for 5 GHz Wi-Fi. The ESP32-C5 supports both 2.4 GHz and 5 GHz Wi-Fi 6, while the ESP32-C6 supports only 2.4 GHz Wi-Fi 6.
+For this book, I wanted to work with a newer ESP32 chip. I was initially considering the ESP32-C6 but chose the ESP32-C5. One of the reasons I chose the ESP32-C5 was its support for 5 GHz Wi-Fi. The ESP32-C5 supports both 2.4 GHz and 5 GHz Wi-Fi 6, while the ESP32-C6 supports only 2.4 GHz Wi-Fi 6.  The ESP32-C5 also has other advantages, such as PSRAM support, and its CPU frequency is 240 MHz compared to 160 Mhz on the ESP32-C6.
 
 ### What to Do If You Have Another ESP32 Variant?
 

@@ -67,8 +67,7 @@ cargo install esp-generate@1.4.0 --locked
 For this book, we will be using the ESP32-C5. I highly recommend using the same hardware to make it easier to follow along.
 
 ```sh
-# Replace PROJECT_NAME and --chip with your specific chip and project name.
-esp-generate --chip esp32c5 PROJECT_NAME
+esp-generate PROJECT_NAME
 ```
 
 ## USB Access
