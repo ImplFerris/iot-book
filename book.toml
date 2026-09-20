@@ -1,0 +1,28 @@
+[book]
+title = "Building IoT Devices with Rust"
+description = "Free Book on building IoT devices with Embedded Rust on ESP32-C5, with hands-on examples covering sensors, networking, MQTT, and more."
+authors = ["ImplFerris"]
+language = "en"
+src = "src"
+
+[output.html]
+git-repository-url = "https://github.com/ImplFerris/iot-book"
+cname = "iot.implrust.com"
+preferred-dark-theme = "ayu"
+default-theme = "light"
+mathjax-support = true
+
+# Don't show table of contents for entire page in the navigation bar
+# Pretty confusing to look at the chapter 
+sidebar-header-nav = false
+
+additional-css = ["theme/css/custom.css"]
+additional-js = []
+
+
+[output.html.fold]
+enable = true
+level = 1     # the depth to start folding
+
+[output.html.playground]
+editable = true
