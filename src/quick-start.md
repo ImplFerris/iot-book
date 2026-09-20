@@ -9,7 +9,7 @@ Before getting into other concepts, let's quickly check that our development set
 To start the project, use the `esp-generate` command. Run the following:
 
 ```sh
-esp-generate --chip esp32 esp32-quick
+esp-generate esp32c5-quick
 ```
 
 This will open the configuration menu.
