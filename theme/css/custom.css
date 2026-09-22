@@ -434,3 +434,16 @@ sup {
     display: inline-block;
     transform: skew(10deg);
 }
+
+.content-image {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .content-image {
+        width: 100%;
+    }
+}

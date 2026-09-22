@@ -2,9 +2,15 @@
 
 # IoT
 
-<figure >
-  <img style="display: block; margin: auto;height:500px" src="../images/iot-devices.jpg" alt="Smart IoT Devices">
-  <figcaption style="text-align:center;padding-top:5px">IoT Devices</figcaption>
+<figure>
+  <img
+    class="content-image" 
+    src="../images/iot-devices.jpg"
+    alt="Smart IoT Devices"
+  >
+  <figcaption style="text-align: center; padding-top: 5px">
+    IoT Devices
+  </figcaption>
 </figure>
 
 IoT stands for Internet of Things. IoT is a term used for devices that can sense or interact with the physical world and communicate that information over a network. This can be a small sensor sending temperature readings, a smart light receiving commands, or an industrial machine reporting its status.

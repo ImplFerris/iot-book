@@ -22,7 +22,11 @@ The ESP32-C5 can also operate in Station + Access Point (STA+AP) mode, where it 
 In Station mode (STA), the ESP32-C5 connects to an existing Wi-Fi network through an access point, such as the Wi-Fi router in your home. The ESP32-C5 acts as a Wi-Fi client, similar to a mobile phone, tablet, or laptop. Once connected, it can communicate with other devices on the network and access services available through the network.
 
 <figure >
-  <img style="display: block; margin: auto;height:500px" src="./images/esp32-c5-wifi6-kit-in-wifi-station-mode.jpg" alt="ESP32-C5 WiFi6 Kit in Wi-Fi Station Mode">
+  <img 
+    class="content-image" 
+    src="./images/esp32-c5-wifi6-kit-in-wifi-station-mode.jpg" 
+    alt="ESP32-C5 WiFi6 Kit in Wi-Fi Station Mode"
+  >
 </figure>
 
 
@@ -30,6 +34,11 @@ In Station mode (STA), the ESP32-C5 connects to an existing Wi-Fi network throug
 
 In Access Point mode (AP), the ESP32-C5 creates its own Wi-Fi network, allowing other devices such as laptops, tablets, smartphones, and other microcontrollers to connect to it. Unlike Station mode, the ESP32-C5 does not connect to an existing Wi-Fi network; instead, it acts as the access point for other devices.
 
+
 <figure >
-  <img style="display: block; margin: auto;height:500px" src="./images/esp32-c5-wifi6-kit-in-wifi-access-point-mode.jpg" alt="ESP32-C5 WiFi6 Kit in Wi-Fi Access Point Mode">
+    <img 
+    class="content-image" 
+    src="./images/esp32-c5-wifi6-kit-in-wifi-access-point-mode.jpg" 
+    alt="ESP32-C5 WiFi6 Kit in Wi-Fi Access Point Mode"
+  >
 </figure>
