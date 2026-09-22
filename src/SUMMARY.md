@@ -11,4 +11,4 @@
     - [Embedded Rust](./introduction/embedded-rust.md)
     - [Understanding the Project](./introduction/understanding-project.md)
 - [Onboard RGB LED](./onboard-rgb-led/index.md)
-
+- [Wi-Fi](./wifi/index.md)
