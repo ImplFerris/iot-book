@@ -21,7 +21,7 @@ For the remaining options, we will use the default settings. Save the configurat
 Alternatively, you can use the following command without using the TUI. This comes in handy when you already know all the options you want to use.
 
 ```sh
-esp-generate --headless -o esp32c5 -o defmt esp32c5-quick
+esp-generate --headless -o esp32c5 -o defmt -o esp32c5-wroom-1-psram esp32c5-quick
 ```
 
 ## Program

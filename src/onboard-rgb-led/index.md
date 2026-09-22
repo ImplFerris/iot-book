@@ -12,7 +12,7 @@ The ESP32-C5 board does not have a standard onboard LED. Instead, it has an addr
 Let's generate the project with `esp-generate` in headless mode.
 
 ```sh
-esp-generate --headless -o esp32c5 -o defmt rgb-led
+esp-generate --headless -o esp32c5 -o defmt -o esp32c5-wroom-1-psram rgb-led
 ```
 
 ## Dependencies

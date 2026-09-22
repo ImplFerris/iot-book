@@ -21,7 +21,19 @@ For example, in the early 1980s, David Nichols and other students at Carnegie Me
 
 Later, companies started bringing this idea into consumer products. In 2000, LG launched an Internet-connected refrigerator.
 
-These days, IoT devices are everywhere. From smart home devices and wearable devices to industrial equipment, many physical devices can now collect information, communicate with other systems, and be controlled remotely.
+IoT devices are used in many areas. From smart home devices and wearables to industrial equipment, physical devices can collect information, communicate with other systems, and be controlled remotely.
+
+## From IoT Devices to Smart Homes
+
+IoT systems can range from a single connected device to systems where many devices communicate and work together.
+
+For example, a temperature sensor connected to an ESP32 can collect temperature readings and send them over a network. A smart light can receive commands from a smartphone and turn on or off. Users can also interact with smart devices through voice assistants, smart speakers, and other interfaces.
+
+As more devices become connected, they can also work together to automate everyday tasks. Imagine a morning routine in a smart home where the bedroom lights gradually turn on at a scheduled time, the curtains open, and the coffee maker starts preparing coffee. The thermostat can adjust the room temperature if needed. Later, when everyone leaves the house, the system can turn off the lights and other devices that are no longer needed.
+
+These actions can be configured as routines or rules, allowing multiple devices to work together without requiring the user to control each device individually.
+
+IoT systems can also be extended by combining them with artificial intelligence. For example, instead of following only predefined routines, an AI system could analyze data collected from the devices and learn patterns or preferences to make predictions and assist with decisions.
 
 ## ESP32 and IoT
 
