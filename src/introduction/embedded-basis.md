@@ -19,3 +19,7 @@ Peripherals are hardware components inside the microcontroller that provide spec
 ### GPIO
 
 GPIO stands for General Purpose Input/Output. GPIO pins can be configured as inputs or outputs to interact with external hardware. For example, a GPIO can be used to control an LED or detect a button press.
+
+## Sensors and Actuators
+
+A microcontroller alone isn't enough to build an IoT device. It needs sensors to collect information from the physical world and actuators to interact with it. For example, a sensor can detect things such as motion, temperature, light, or pressure, while an actuator can perform actions such as turning on an LED, moving a motor, or sounding a buzzer.

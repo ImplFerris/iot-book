@@ -55,7 +55,7 @@ Next, we will configure the RMT channel to drive the WS2812B LED connected to GP
 
 ```rust
 let mut led =
-    RmtSmartLeds::<{ buffer_size::<RGB8>(1) }, _, RGB8, color_order::Grb>::new_with_memsize(
+    RmtSmartLeds::<{ buffer_size::<RGB8>(1) }, _, RGB8, color_order::Rgb>::new_with_memsize(
         esp_hal_smartled::WS2812_TIMING,
         rmt.channel0,
         peripherals.GPIO27,
@@ -65,7 +65,7 @@ let mut led =
     .unwrap();
 ```
 
-The `WS2812_TIMING` provides the timing required by the WS2812B, while `color_order::Grb` specifies the order in which the LED expects the color values.
+The `WS2812_TIMING` provides the timing required by the WS2812B, while `color_order::Rgb` specifies the order in which the color values are sent to the LED.
 
 ## Main loop
 

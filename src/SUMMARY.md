@@ -11,4 +11,8 @@
     - [Embedded Rust](./introduction/embedded-rust.md)
     - [Understanding the Project](./introduction/understanding-project.md)
 - [Onboard RGB LED](./onboard-rgb-led/index.md)
+- [Burglar Alarm](./burglar-alarm/index.md)
+    - [PIR Sensor](./burglar-alarm/pir-sensor-module.md)
+    - [Circuit](./burglar-alarm/circuit.md)
+    - [Code](./burglar-alarm/code.md)
 - [Wi-Fi](./wifi/index.md)

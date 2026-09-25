@@ -43,6 +43,7 @@ Here are the main datasheets:
 
 - [ESP32-C5 Datasheet](https://documentation.espressif.com/esp32-c5_datasheet_en.pdf)
 - [ESP32-C5-WROOM-1 & ESP32-C5-WROOM-1U Datasheet](https://documentation.espressif.com/esp32-c5-wroom-1_wroom-1u_datasheet_en.pdf)
+- Circuit diagrams in this book were created with Fritzing.
 
 In case a datasheet link is broken, you want to check the latest version, or you want to find other related documents, you can check the [Related Documents](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c5/esp32-c5-devkitc-1/user_guide.html#related-documents) section in the ESP32-C5-DevKitC-1 User Guide.
 

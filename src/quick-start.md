@@ -57,13 +57,15 @@ fn main() -> ! {
 
 All that's left is to flash the code onto the ESP32-C5 and see the output.
 
-Run the following command from your project folder:
+Connect the ESP32-C5 to your computer using a USB-C cable.
+
+Then, run the following command from your project folder:
 
 ```rust
 cargo run
 ```
 
-To run in release mode
+To run in release mode:
 
 ```rust
 cargo run --release
