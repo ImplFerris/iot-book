@@ -93,6 +93,9 @@ Connect the ESP32-C5 to your computer and run the project:
 cargo run --release
 ```
 
+> [!NOTE]
+> The PIR sensor needs some time to stabilize after power-up. Give it a short period before testing motion detection.
+
 Once the project is running, move in front of the PIR sensor. When motion is detected, the buzzer will turn on and the onboard LED will change to red.
 
 You might want to adjust the time delay and sensitivity according to your preference.
