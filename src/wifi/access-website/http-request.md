@@ -37,7 +37,7 @@ let dns_client = DnsSocket::new(wifi_stack);
 let mut client = HttpClient::new(&tcp_client, &dns_client);
 ```
 
-We will send the web request to the `httpbin.org` website. You can use any other website and try sending a request. To receive the response, we create a buffer. We then send the request using the buffer to store the response.
+We will send the web request to the `httpbin.org` website. To receive the response, we create a buffer. We then send the request using the buffer to store the response.
 
 ```rust
 let mut rx_buf = [0u8; 4096];
