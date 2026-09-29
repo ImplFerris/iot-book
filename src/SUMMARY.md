@@ -19,3 +19,6 @@
     - [Access Website](./wifi/access-website/index.md)
         - [Wi-Fi Module](./wifi/access-website/wifi-module.md)
         - [Web Request](./wifi/access-website/http-request.md)
+    <!-- TODO: Web Server, Access Point + Web Server -->
+- [Telegram Notifications](./telegram-notifications/index.md)
+    - [TLS Verification](./telegram-notifications/with-tls-verification.md)

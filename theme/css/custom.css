@@ -442,6 +442,10 @@ sup {
     margin: auto;
 }
 
+.content-image-90 {
+    width: 90%;
+}
+
 .content-image-30 {
     width: 30%;
 }

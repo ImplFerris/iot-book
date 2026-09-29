@@ -8,6 +8,12 @@ Let's generate the project with `esp-generate` in headless mode.
 esp-generate --headless -o esp32c5 -o defmt -o esp32c5-wroom-1-psram burglar-alarm
 ```
 
+> [!Tip]
+> If you get stuck or run into any import errors, you can refer to my project and navigate to the `burglar-alarm` folder
+>
+> [https://github.com/ImplFerris/esp32c5-projects](https://github.com/ImplFerris/esp32c5-projects)
+
+
 ## Dependencies
 
 We are going to change the color of the onboard LED to RED when motion is detected. To control the onboard LED, we need to add the following dependencies to `Cargo.toml`:
@@ -59,6 +65,8 @@ let mut buzzer_pin = Output::new(peripherals.GPIO24, Level::Low, OutputConfig::d
 The main loop is very simple. We will continuously check if we get a HIGH signal on the sensor pin. If so, we will turn on the buzzer and change the onboard LED to RED. If no motion is detected, we turn off both the buzzer and the LED.
 
 ```rust
+blocking_delay(Duration::from_secs(60)); // PIR warm-up
+
 loop {
     if sensor_pin.is_high() {
         info!("Motion detected");
@@ -74,16 +82,6 @@ loop {
 ```
 
 The "Motion detected" message will be printed continuously while motion is detected. We could add a state flag to print the message only once until the motion stops, but I wanted to keep the code simple and easy to understand. You can extend this code to make it better.
-
-
-## Clone the existing project
-
-You can clone the project I created or refer to the existing project and navigate to the `burglar-alarm` folder.
-
-```sh
-git clone https://github.com/ImplFerris/esp32c5-projects
-cd esp32c5-projects/burglar-alarm/
-```
 
 ## Running the Project
 

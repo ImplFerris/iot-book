@@ -12,7 +12,7 @@ For this exercise, you will need a Wi-Fi network. You can use either your home W
 
 With `esp-generate`, enable "Unstable HAL" because the Wi-Fi APIs are currently unstable. Also enable "alloc", which is required by the Wi-Fi implementation.  The Wi-Fi support also requires the Embassy, so we need to enable the Embassy option as well.
 
-Run the following command to create the `wifi-client` project:
+Run the following command to create the `access-website` project:
 
 ```sh
 esp-generate --headless \
@@ -77,6 +77,19 @@ reqwless = { version = "0.14.0", default-features = false, features = [
 ```
 
 We will use the `reqwless` crate to send HTTP requests. It provides an HTTP client that can be used in a `no_std` environment with any transport that implements the traits from the `embedded-io` crate. It does not require `alloc`.
+
+We will use DNS to resolve the domain name of the website we are accessing. DNS support is not enabled by default in `embassy-net`, so enable the `dns` feature:
+
+```toml
+embassy-net = { version = "0.9.1", features = [
+  "defmt",
+  "dhcpv4",
+  "medium-ethernet",
+  "tcp",
+  "udp",
+  "dns", # <= Addition
+] }
+```
 
 ## Using StaticCell
 
