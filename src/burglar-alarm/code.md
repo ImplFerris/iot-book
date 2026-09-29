@@ -98,5 +98,4 @@ Once the project is running, move in front of the PIR sensor. When motion is det
 
 You might want to adjust the time delay and sensitivity according to your preference.
 
-Once the burglar alarm is working, you can modify it to send a notification to your phone when motion is detected.  See [Telegram Notifications](../telegram-notifications/index.md) to learn how to send the alert through Telegram.
-
+You can take this project a step further by [sending motion notifications](../telegram-notifications/index.md) to your phone through Telegram. Before doing that, we recommend completing the Wi-Fi chapter, as we will use the Wi-Fi setup and concepts covered there to connect the ESP32-C5 to the internet.
