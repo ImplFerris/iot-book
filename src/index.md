@@ -43,7 +43,6 @@ Here are the main datasheets:
 
 - [ESP32-C5 Datasheet](https://documentation.espressif.com/esp32-c5_datasheet_en.pdf)
 - [ESP32-C5-WROOM-1 & ESP32-C5-WROOM-1U Datasheet](https://documentation.espressif.com/esp32-c5-wroom-1_wroom-1u_datasheet_en.pdf)
-- Circuit diagrams in this book were created with Fritzing.
 
 In case a datasheet link is broken, you want to check the latest version, or you want to find other related documents, you can check the [Related Documents](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c5/esp32-c5-devkitc-1/user_guide.html#related-documents) section in the ESP32-C5-DevKitC-1 User Guide.
 
@@ -51,8 +50,9 @@ In case a datasheet link is broken, you want to check the latest version, or you
 
 The "Building IoT Devices with Rust" book(this project) is distributed under the following licenses:
 
-* The code samples and free-standing Cargo projects contained within this book are licensed under the terms of both the [MIT License] and the [Apache License v2.0].
-* The written prose contained within this book is licensed under the terms of the Creative Commons [CC-BY-SA v4.0] license.
+- The code samples and free-standing Cargo projects contained within this book are licensed under the terms of both the [MIT License] and the [Apache License v2.0].
+- The written prose contained within this book is licensed under the terms of the Creative Commons [CC-BY-SA v4.0] license.
+- Circuit diagrams in this book were created with Fritzing.
 
 [MIT License]: ./LICENSE-MIT
 [Apache License v2.0]: ./LICENSE-APACHE
