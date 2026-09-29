@@ -97,3 +97,6 @@ cargo run --release
 Once the project is running, move in front of the PIR sensor. When motion is detected, the buzzer will turn on and the onboard LED will change to red.
 
 You might want to adjust the time delay and sensitivity according to your preference.
+
+Once the burglar alarm is working, you can modify it to send a notification to your phone when motion is detected.  See [Telegram Notifications](../telegram-notifications/index.md) to learn how to send the alert through Telegram.
+
