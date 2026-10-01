@@ -122,7 +122,10 @@ let sensor_pin = Input::new(
 );
 ```
 
-Since the ESP32-C5 needs an Internet connection to communicate with Telegram, we will use Wi-Fi. So, copy the Wi-Fi module and Wi-Fi initialization code from the previous chapters.
+Since the ESP32-C5 needs an Internet connection to communicate with Telegram, we will use Wi-Fi. So, copy the Wi-Fi module and Wi-Fi initialization code from the previous chapters. 
+
+> [!Tip]
+> Whenever I say to copy the Wi-Fi module, make sure you also copy the `mk_static` macro from `lib.rs` into your current project's `lib.rs`.
 
 Once you have copied both, the base setup should be something like this:
 

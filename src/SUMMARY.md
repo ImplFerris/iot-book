@@ -22,3 +22,4 @@
     <!-- TODO: Web Server, Access Point + Web Server -->
 - [Telegram Notifications](./telegram-notifications/index.md)
     - [TLS Verification](./telegram-notifications/with-tls-verification.md)
+- [Web Server on ESP32-C5](./web-server/index.md)
